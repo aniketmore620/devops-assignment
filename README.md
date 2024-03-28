@@ -6,7 +6,7 @@ Download the assignment files from the provided link.
 
 ### Step 2: Check Node.js Installation
 
-Check if Node.js is installed on your computer. If not, Install with "sudo apt install nodejs" command.
+ Install nodejs with "sudo apt install nodejs" command.
 
 ### Step 3: Install Dependencies
 
