@@ -20,14 +20,6 @@ Command - "node main.js"
 
 ### Step 5: Create Dockerfile
 
-FROM node:14
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["node", "main.js"]
-
 ### Step 6: Build Docker image
 
 command - "docker build -t node-app ."
@@ -43,12 +35,6 @@ Access the API at http://localhost:3000 and you should see the response "Hello, 
 ### BOUNUS STEP
 
 write a docker-compose file ---
-version: '3'
-services:
-  app:
-    build: .
-    ports:
-      - "3000:3000"
 - Run following Command to start container
   command - "docker-compose up -d
 
